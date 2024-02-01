@@ -1,4 +1,4 @@
-//замикання
+замикання
 
 // function createUrl(domain) {
 //   return function (url) {
@@ -17,7 +17,8 @@
 
 //_________________________//
 //_________________________//
-//this
+
+this
 
 // function hello() {
 //   console.log("hello", this);
@@ -47,7 +48,7 @@
 //   this.style.background = "green";
 // }
 
-// // document.querySelector("div").onclick = changeColor;
+// document.querySelector("div").onclick = changeColor;
 
 // let user = document.querySelectorAll("div");
 
@@ -70,7 +71,7 @@
 
 // list.showList();
 
-//========= bind
+========= bind
 
 // function hello() {
 //   console.log(this);
@@ -103,7 +104,7 @@
 // const nataInfo = user.info.bind(Nata, "Odesa");
 // nataInfo();
 
-//========= call
+========= call
 
 // const userInfo = {
 //   name: "name",
@@ -124,7 +125,7 @@
 
 // userInfo.logInfo.call(Vano, "developer");
 
-//apply
+apply
 
 // const showUserInfo = {
 //   name: name,
@@ -139,12 +140,12 @@
 //   },
 // };
 
-// const Vano = {
+// const Vano1 = {
 //   name: "Ivan",
 //   age: 45,
 // };
 
-// showUserInfo.logInfo.apply(Vano, ["developer", "Lviv"]);
+// showUserInfo.logInfo.apply(Vano1, ["developer", "Lviv"]);
 
 ///////////////////////////////////
 ///////////////////////////////////
@@ -180,7 +181,7 @@
 // const man = {
 //   items: ["Костюм, рубашка"],
 // };
-
+ 
 // const child = {
 //   items: ["майка, шорти"],
 // };
