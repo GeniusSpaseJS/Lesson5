@@ -2,11 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HomeWork4</title>
+    <title>Button Functions</title>
 </head>
 <body>
-    <script src="./js/script.js" ></script>
+    <button onclick="showDefinition('html')">HTML</button>
+    <button onclick="showDefinition('css')">CSS</button>
+
+    <script>
+        function showDefinition(technology) {
+            if (technology === 'html') {
+                alert('HTML stands for HyperText Markup Language. It is the standard markup language for creating web pages.');
+            } else if (technology === 'css') {
+                alert('CSS stands for Cascading Style Sheets. It is a style sheet language used for describing the look and formatting of a document written in HTML.');
+            }
+        }
+    </script>
+    <script src="./js/script.js"></script>
 </body>
 </html>
